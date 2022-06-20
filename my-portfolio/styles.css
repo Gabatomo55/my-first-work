@@ -1,0 +1,197 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+    font-family: 'Philosopher', sans-serif;
+    background-color: #D7CCC8;
+}
+article{
+  height: 600px;
+}
+p{
+  font-size: 20px;
+}
+.header-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 40px;
+  background-image: linear-gradient(45deg,#EFEBE9,#3E2723);
+  height: 70px;
+  width: 100%;
+}
+.menu-elements:hover{
+  text-decoration: underline;
+}
+.menu-elements:active{
+  color: #FFFFFF;
+}
+.menu-elements{
+  color: #D7CCC8;
+  margin-left: 30px;
+  text-decoration: none;
+  font-size: 20px;
+}
+.coffee{
+  background-image: url("assect/images/image-centered-sfumata.png");
+  background-size: cover;
+  height: 700px;
+  margin-bottom: 100px;
+  position: relative;
+}
+.myname{
+  position: absolute;
+  top: 20%;
+  right: 70%;
+  text-align: center;
+  color: #fff;
+  font-size: 80px;
+}
+.title{
+  font-weight: bold;
+  font-size: 100px;
+  text-align: center;
+  margin-top: 200px;
+  margin-bottom: 40px;
+}
+.first{
+  margin-top: 100px;
+}
+.photo{
+  display: flex;
+  justify-content: center;
+}
+.history{
+  padding: 10px;
+  width: 800px;
+  font-size: 20px;
+  line-height: 25px;
+  color: #ffffff;
+  background-color: #827717;
+}
+.selfie{
+  float: left;
+  width: 200px;
+  height: 300px;
+  margin-right: 20px;
+}
+:root{
+  --color-html: #FFFFFF;
+  --color-css: #9E9D24;
+  --color-mdbootstrap: #795548;
+  --color-gitgithub: #424242;
+}
+.title-grafic{
+  text-align: center;
+  font-style: italic;
+  font-size: 40px;
+}
+.container-grafic{
+  width: 700px;
+  height: 450px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 100px;
+}
+.grafic{
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+  background-image: conic-gradient(var(--color-html) 35%,
+                                   var(--color-css) 35% 70%,
+                                   var(--color-mdbootstrap) 15% 88%,
+                                   var(--color-gitgithub) 15%);
+  box-shadow: 1px 1px 5px 1px rgba(70, 70, 70);
+}
+.legenda{
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  font-weight: bold;
+
+}
+[class^="color-"]{
+  width: 15px;
+  height: 15px;
+  background-color: var(--color-html);
+  margin-right: 8px;
+  border-radius: 2px;
+}
+.color-css{
+  background-color: var(--color-css);
+}
+.color-mdbootstrap{
+  background-color: var(--color-mdbootstrap);
+}
+.color-gitgithub{
+  background-color: var(--color-gitgithub);
+}
+footer{
+  background-image: linear-gradient(45deg,#3E2723,#EFEBE9);
+  height: 70px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+button{
+  padding: 5px;
+  border-radius: 10%;
+  background-color: #1E88E5;
+  color: white;
+  border: none;
+  font-size: 35px;
+  margin: 0 20px 0 15px;
+}
+button:hover{
+  background-color: #64b5f6;
+  cursor: pointer;
+}
+button:active{
+  background-color: #0d47a1;
+}
+::-webkit-scrollbar{
+  width: 5px;
+  height: 5px;
+}
+::-webkit-scrollbar-track{
+background-color: #D7CCC8;
+}
+::-webkit-scrollbar-thumb{
+background-color: #795548;
+border-radius: 5px;
+}
+::-webkit-scrollbar-thumb:hover{
+background-color: #212121;
+}
+@media only screen and (max-width:1000px) {
+  .coffee{
+    background-image: url("assect/images/image-centered-sfumata-tall.png");
+  }
+  .myname{
+   display:  none;
+  }
+@media only screen and (max-width:700px) {
+.menu-elements{
+  font-size: 15px;
+  margin-left: 10px;
+ }
+ .container-grafic{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   margin-top: 50px;
+   height: 700px;
+   width: 100px;
+ }
+ .grafic{
+    margin-bottom: 30px;
+ }
+ .second{
+   margin-top: 400px;
+ }
+}
