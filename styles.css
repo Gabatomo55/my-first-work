@@ -35,7 +35,7 @@ p{
   font-size: 20px;
 }
 .coffee{
-  background-image: url("assect/images/image-centered-sfumata.png");
+  background-image: url("asset/images/image-centered-sfumata.png");
   background-size: cover;
   height: 700px;
   margin-bottom: 100px;
@@ -170,7 +170,7 @@ background-color: #212121;
 }
 @media only screen and (max-width:1000px) {
   .coffee{
-    background-image: url("assect/images/image-centered-sfumata-tall.png");
+    background-image: url("asset/images/image-centered-sfumata-tall.png");
   }
   .myname{
    display:  none;
