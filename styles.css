@@ -13,6 +13,9 @@ article{
 p{
   font-size: 20px;
 }
+li{
+  list-style: none;
+}
 .header-container{
   position: -webkit-sticky;
   position: sticky;
@@ -25,17 +28,18 @@ p{
   height: 70px;
   width: 100%;
 }
+.menu-elements{
+  display: unnone;
+  color: #D7CCC8;
+  margin-left: 30px;
+  text-decoration: none;
+  font-size: 20px;
+}
 .menu-elements:hover{
   text-decoration: underline;
 }
 .menu-elements:active{
   color: #FFFFFF;
-}
-.menu-elements{
-  color: #D7CCC8;
-  margin-left: 30px;
-  text-decoration: none;
-  font-size: 20px;
 }
 .coffee{
   z-index: -1;
@@ -54,7 +58,6 @@ p{
   font-size: 80px;
 }
 .title{
-  scroll-padding-top:1100px;
   font-weight: bold;
   font-size: 100px;
   text-align: center;
@@ -65,6 +68,7 @@ p{
   justify-content: center;
 }
 .history{
+  font-family: "Philosopher"
   padding: 10px;
   width: 800px;
   font-size: 20px;
@@ -167,6 +171,23 @@ p{
   flex-direction: row;
   justify-content: space-between;
 }
+.portfolio{
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  margin-bottom: 100px;
+  width: 850px;
+  padding: 10px;
+  font-size: 20px;
+  line-height: 25px;
+  font-family: "Philosopher"
+}
+.operai{
+  border: 1px solid #212121;
+  border-radius: 2%;
+  margin-right: 5px;
+  width: 500px;
+}
 footer{
   background-image: linear-gradient(45deg,#3E2723,#EFEBE9);
   height: 70px;
@@ -236,4 +257,23 @@ background-color: #212121;
  .personal{
    width: 480px;
  }
+}
+@media only screen and (max-width:500px) {
+.first{
+  margin-top: 100px;
+}
+.second{
+  margin-top: 400px;
+}
+.personal{
+  width: 400px;
+}
+.operai{
+  width: 400px;
+}
+.work-portfolio{
+  width: 400px;
+}
+.portfolio{
+  flex-direction: column;
 }
