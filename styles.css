@@ -240,6 +240,9 @@ background-color: #212121;
   font-size: 15px;
   margin-left: 10px;
  }
+ .history{
+   width: 350px;
+ }
  .container-grafic{
    display: flex;
    flex-direction: column;
@@ -261,24 +264,24 @@ background-color: #212121;
   margin-top: 100px;
 }
 .second{
-  margin-top: 500px;
+  margin-top: 700px;
 }
 .grafic{
-  width: 300px;
-  height: 300px;
+  width: 200px;
+  height: 200px;
 }
 .personal{
-  width: 300px;
+  width: 200px;
 }
 .operai{
-  width: 300px;
+  width: 200px;
 }
 .work-portfolio{
-  width: 300px;
+  width: 200px;
 }
 .portfolio{
   flex-direction: column;
-  width: 300px;
+  width: 200px;
 }
 .title{
   font-size: 80px;
