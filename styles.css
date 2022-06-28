@@ -235,13 +235,10 @@ background-color: #212121;
   .personal{
     width: 650px;
   }
-@media only screen and (max-width:700px) {
+@media only screen and (max-width:400px) {
 .menu-elements{
   font-size: 15px;
   margin-left: 10px;
- }
- .history{
-   width: 350px;
  }
  .container-grafic{
    display: flex;
@@ -251,38 +248,42 @@ background-color: #212121;
    height: 700px;
    width: 100px;
  }
- .grafic{
-    margin-bottom: 30px;
- }
  .second{
-   margin-top: 400px;
+   margin-top: 800px;
  }
  .personal{
-   width: 480px;
+   width: 100%;
+   margin: 0 10px 0 10px;
  }
 .first{
   margin-top: 100px;
 }
-.second{
-  margin-top: 700px;
+.history{
+  width: 100%;
+  margin: 0 20px 0 20px;
 }
 .grafic{
-  width: 200px;
+  margin-bottom: 10px;
   height: 200px;
+  width: 200px;
+}
+.title-grafic{
+
 }
 .personal{
-  width: 200px;
+  width: 300px;
+  margin-top: 30px;
 }
 .operai{
-  width: 200px;
+width: 300px;
 }
 .work-portfolio{
-  width: 200px;
+width: 300px;
 }
 .portfolio{
+  display: flex;
   flex-direction: column;
-  width: 200px;
 }
 .title{
-  font-size: 80px;
+  font-size: 70px;
 }
