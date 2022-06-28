@@ -14,6 +14,9 @@ p{
   font-size: 20px;
 }
 .header-container{
+  position: -webkit-sticky;
+  position: sticky;
+  top:0;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -35,6 +38,7 @@ p{
   font-size: 20px;
 }
 .coffee{
+  z-index: -1;
   background-image: url("asset/images/image-centered-sfumata.png");
   background-size: cover;
   height: 700px;
@@ -43,21 +47,18 @@ p{
 }
 .myname{
   position: absolute;
-  top: 20%;
+  top: 15%;
   right: 70%;
   text-align: center;
   color: #fff;
   font-size: 80px;
 }
 .title{
+  scroll-padding-top:1100px;
   font-weight: bold;
   font-size: 100px;
   text-align: center;
-  margin-top: 200px;
-  margin-bottom: 40px;
-}
-.first{
-  margin-top: 100px;
+  margin: 200px 0 50px 0;
 }
 .photo{
   display: flex;
@@ -96,7 +97,7 @@ p{
   align-items: center;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
 }
 .grafic{
   width: 400px;
@@ -130,6 +131,41 @@ p{
 }
 .color-gitgithub{
   background-color: var(--color-gitgithub);
+}
+.personal{
+  margin: 0 auto;
+  margin-top: 50px;
+  width: 850px;
+}
+.ability{
+  padding: 10px;
+  font-size: 25px;
+  font-family: "satisfy"
+}
+.personal-skills-one{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.personal-skills-two{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.personal-skills-three{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.personal-skills-four{
+  display: flex;
+  flex-direction: row;
+  justify-content:space-around;
+}
+.personal-skills-five{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 footer{
   background-image: linear-gradient(45deg,#3E2723,#EFEBE9);
@@ -175,6 +211,9 @@ background-color: #212121;
   .myname{
    display:  none;
   }
+  .personal{
+    width: 650px;
+  }
 @media only screen and (max-width:700px) {
 .menu-elements{
   font-size: 15px;
@@ -193,5 +232,8 @@ background-color: #212121;
  }
  .second{
    margin-top: 400px;
+ }
+ .personal{
+   width: 480px;
  }
 }
