@@ -257,8 +257,6 @@ background-color: #212121;
  .personal{
    width: 480px;
  }
-}
-@media only screen and (max-width:500px) {
 .first{
   margin-top: 100px;
 }
@@ -276,4 +274,5 @@ background-color: #212121;
 }
 .portfolio{
   flex-direction: column;
+  width: 400px;
 }
