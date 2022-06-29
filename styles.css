@@ -311,6 +311,7 @@ background-color: #212121;
   }
   .three{
     margin-top: 50px;
+  }
 @media only screen and (max-width:400px) /*Mobile style*/
 {
 .menu-elements{
@@ -399,6 +400,7 @@ width: 200px;
 }
 .three{
   margin-top: 50px;
+}
 }
 @media only screen and (max-width:250px) {
   .history{
