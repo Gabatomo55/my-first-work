@@ -67,7 +67,11 @@ li{
   font-weight: bold;
   font-size: 100px;
   text-align: center;
-  margin: 200px 0 50px 0;
+  margin: 70px 0 50px 0;
+}
+hr{
+    opacity: 0;
+    margin-bottom: 10px;
 }
 .photo{
   display: flex;
@@ -235,6 +239,10 @@ background-color: #212121;
   .coffee{
     background-image: url("asset/images/image-centered-sfumata-tall.png");
   }
+  hr{
+    margin-top: 450px;
+    margin-bottom: 10px;
+  }
   .myname{
     display: none;
   }
@@ -256,9 +264,6 @@ background-color: #212121;
   }
   .personal{
     width: 400px;
-  }
-  .second{
-    margin-top: 500px;
   }
   .portfolio{
     display: flex;
@@ -314,7 +319,7 @@ background-color: #212121;
    width: 200px;
  }
  .second{
-   margin-top: 800px;
+   margin-top: 250px;
  }
  .personal{
    width: 100px;
@@ -379,16 +384,19 @@ width: 200px;
  margin: 5px;
 }
 .navbar{
-  cursor: pointer;
+ cursor: pointer;
 }
 @media only screen and (max-width:250px) {
   .history{
     width: 150px;
   }
-.second{
-  margin-top: 1800px;
-}
 .selfie{
   width: 150px;
+ }
+ .two{
+   margin-top: 1400px;
+ }
+ hr{
+   margin-top: 50px;
  }
 }
