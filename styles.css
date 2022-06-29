@@ -401,8 +401,8 @@ width: 200px;
 .three{
   margin-top: 50px;
 }
-}
-@media only screen and (max-width:250px) {
+
+@media only screen and (max-width:300px) {
   .history{
     width: 150px;
   }
@@ -410,7 +410,7 @@ width: 200px;
   width: 150px;
  }
  .two{
-   margin-top: 1600px;
+   margin-top: 1400px;
  }
  hr{
    margin-top: 50px;
