@@ -225,15 +225,47 @@ border-radius: 5px;
 ::-webkit-scrollbar-thumb:hover{
 background-color: #212121;
 }
-@media only screen and (max-width:1000px) {
+@media only screen and (max-width:900px) {
   .coffee{
     background-image: url("asset/images/image-centered-sfumata-tall.png");
   }
   .myname{
-   display:  none;
+    display: none;
+  }
+  .history{
+    width: 400px;
+  }
+  .grafic{
+    width: 200px;
+    height: 200px;
+  }
+  .container-grafic{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+  }
+  .title-grafic{
+    font-size: 50px;
   }
   .personal{
-    width: 650px;
+    width: 400px;
+  }
+  .second{
+    margin-top: 500px;
+  }
+  .portfolio{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+  }
+  .work-portfolio{
+    width: 400px;
+  }
+  .operai{
+    width: 400px;
   }
 @media only screen and (max-width:400px) {
 .menu-elements{
@@ -270,11 +302,11 @@ background-color: #212121;
   margin-top: 50px;
 }
 .operai{
-width: 300px;
+width: 400px;
 margin-bottom: 10px;
 }
 .work-portfolio{
-width: 300px;
+width: 400px;
 }
 .portfolio{
   display: flex;
