@@ -293,8 +293,8 @@ background-color: #212121;
 }
 .grafic{
   margin-bottom: 30px;
-  height: 100px;
-  width: 100px;
+  height: 200px;
+  width: 200px;
 }
 .personal{
   width: 200px;
@@ -317,4 +317,5 @@ width: 200px;
 }
 .title-grafic{
   font-size: 40px;
+  margin-bottom: 30px;
 }
