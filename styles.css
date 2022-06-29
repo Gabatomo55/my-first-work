@@ -279,40 +279,42 @@ background-color: #212121;
    width: 100px;
  }
  .second{
-   margin-top: 600px;
+   margin-top: 800px;
  }
  .personal{
-   width: 100%;
+   width: 100px;
    margin: 0 10px 0 10px;
  }
 .first{
   margin-top: 100px;
 }
 .history{
-  width: 100%;
-  margin: 0 20px 0 20px;
+  width: 300px;
 }
 .grafic{
   margin-bottom: 30px;
-  height: 200px;
-  width: 200px;
+  height: 100px;
+  width: 100px;
 }
 .personal{
-  width: 300px;
-  margin-top: 50px;
+  width: 200px;
+  margin: 0 auto;
 }
 .operai{
-width: 400px;
-margin-bottom: 10px;
+width: 200px;
+margin-bottom: 30px;
 }
 .work-portfolio{
-width: 400px;
+width: 200px;
 }
 .portfolio{
   display: flex;
   flex-direction: column;
-  width: 400px;
+  width: 200px;
 }
 .title{
-  font-size: 70px;
+  font-size: 60px;
+}
+.title-grafic{
+  font-size: 40px;
 }
