@@ -311,6 +311,7 @@ width: 400px;
 .portfolio{
   display: flex;
   flex-direction: column;
+  width: 400px;
 }
 .title{
   font-size: 70px;
