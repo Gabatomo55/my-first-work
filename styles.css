@@ -57,7 +57,7 @@ li{
 }
 .myname{
   position: absolute;
-  top: 5%;
+  top: 8%;
   right: 70%;
   text-align: center;
   color: #fff;
@@ -306,11 +306,19 @@ background-color: #212121;
   .navbar{
     cursor: pointer;
   }
+  .one{
+    margin-top: 50px;
+  }
+  .three{
+    margin-top: 50px;
 @media only screen and (max-width:400px) /*Mobile style*/
 {
 .menu-elements{
   font-size: 15px;
   margin-left: 10px;
+ }
+ body:hover.menu{
+   display: none;
  }
  .container-grafic{
    display: flex;
@@ -385,6 +393,12 @@ width: 200px;
 }
 .navbar{
  cursor: pointer;
+}
+.one{
+  margin-top: 50px;
+}
+.three{
+  margin-top: 50px;
 }
 @media only screen and (max-width:250px) {
   .history{
