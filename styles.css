@@ -49,16 +49,15 @@ li{
 }
 .coffee{
   z-index: -1;
-  background-image: url("asset/images/image-centered-sfumata.png");
-  background-size: cover;
+  width: 100%;
   height: 700px;
   margin-bottom: 100px;
   position: relative;
 }
-.myname{
+h1{
   position: absolute;
-  top: 8%;
-  right: 70%;
+  top: 20%;
+  right: 65%;
   text-align: center;
   color: #fff;
   font-size: 80px;
@@ -236,15 +235,16 @@ border-radius: 5px;
 background-color: #212121;
 }
 @media only screen and (max-width:900px) {
-  .coffee{
-    background-image: url("asset/images/image-centered-sfumata-tall.png");
-  }
+.menu{
+  display: none;
+}
+h1{
+  font-size: 50px;
+  top: 200px;
+}
   hr{
     margin-top: 450px;
     margin-bottom: 10px;
-  }
-  .myname{
-    display: none;
   }
   .history{
     width: 400px;
@@ -291,9 +291,6 @@ background-color: #212121;
     border-radius: 3%;
     border: 1px solid #fff;
   }
-  .menu{
-    display: none;
-  }
   .line{
    z-index: 1;
    position: relative;
@@ -312,14 +309,22 @@ background-color: #212121;
   .three{
     margin-top: 50px;
   }
+  @media only screen and (max-width:550px) {
+    h1{
+      font-size: 35px;
+    }
+  }
 @media only screen and (max-width:400px) /*Mobile style*/
 {
+  h1{
+    font-size: 25px;
+  }
+  .coffee{
+      background-image: url("asset/images/image-centered-sfumata-tall.png");
+    }
 .menu-elements{
   font-size: 15px;
   margin-left: 10px;
- }
- body:hover.menu{
-   display: none;
  }
  .container-grafic{
    display: flex;
@@ -403,6 +408,12 @@ width: 200px;
 }
 
 @media only screen and (max-width:300px) {
+  h1{
+    font-size: 20px;
+  }
+  .coffee{
+      background-image: url("asset/images/image-centered-sfumata-tall.png");
+    }
   .history{
     width: 150px;
   }
